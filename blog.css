@@ -143,6 +143,7 @@ ul {
 h2{
   opacity: 70%;
   font-family: 'Montserrat', sans-serif;
+  padding-bottom:5%;
 }
 .checked {
   color: orange;
@@ -306,7 +307,7 @@ all-blogs-wrapper {
       background-color:#ffcb9a;
   }
   h1{
-      
+    
       font-family: 'Montserrat', sans-serif;
       
   }
@@ -316,6 +317,7 @@ all-blogs-wrapper {
   }
   h2{
     font-family: 'Montserrat', sans-serif;
+    padding-bottom:5%;
   }
   
   
@@ -388,25 +390,20 @@ all-blogs-wrapper {
       -webkit-box-shadow: 5px 4px 8px 1px rgba(0, 0, 0, 0.21);
       -moz-box-shadow: 5px 4px 8px 1px rgba(0, 0, 0, 0.21);
       box-shadow: 5px 4px 8px 1px rgba(0, 0, 0, 0.21);
-      margin-left:10px;
-      margin-right:10px;
+      margin-left:2%;
+      margin-right:5%;
       
     }
-    
-    .image-wrapper {
-    display:none;
-  
-    }
-   
+      
     .display-wrapper{
       display:flex;
       
       
     }
     .blog-image {
+     
      display:none;
        
-  
     }
     
     .blog-content {
@@ -425,7 +422,7 @@ all-blogs-wrapper {
     }
   
     .blog-heading{
-      padding:10px 0px 0px 0px;
+      padding:10px;
     }
     .blog-details {
       padding-bottom: 30px;
