@@ -30,7 +30,6 @@ h1{
 }
 #about{
   font-family: 'Montserrat', sans-serif;
-  
   opacity:90%;
 }
 
@@ -39,8 +38,6 @@ h1{
     margin-left:20%;
     display:flex;
 }
-
-
 
 .page-image{
   
@@ -80,7 +77,6 @@ h1{
   max-width: 80%;
 }
 
-
 #rating-star{
   padding:10px;
   display:block;
@@ -89,6 +85,7 @@ h1{
   height:auto;
   margin-left:10%;
 }
+
 ul {
     list-style-type: none;
     margin:0;
@@ -125,21 +122,15 @@ ul {
     font-family: 'Cairo', sans-serif;
 }
 
-
-
-
-/*div*/
-
-/*image*/
 #about_photo{
-  
   width:100%;
   transition: transform .2s;
-  
 }
+
 #about_photo:hover{
   transform: scale(1.1);
 }
+
 h2{
   opacity: 70%;
   font-family: 'Montserrat', sans-serif;
@@ -156,9 +147,9 @@ h2{
 .topnav{
   display: absolute; 
 }
-/*blog page*/
 
-/* nav */
+
+/*blog page*/
 .reflection-nav-link{
   color:#ffcb9a;
   font-size: 20px;
@@ -172,12 +163,9 @@ h2{
     top:23%;
     left:0;
     position: fixed;
-    
     overflow: auto;
     font-family: 'Montserrat', sans-serif;
 }
-
-
 
 .reflection{
   background-color:#1F2833;
@@ -187,6 +175,7 @@ h2{
   padding:10px;
   color:white;
 }
+
 .break{
   background-color:#d1e8e2;
   height:20px;
@@ -236,23 +225,18 @@ all-blogs-wrapper {
   }
   
   .image-wrapper {
-  
     width:100%;
     overflow: hidden;
     border-radius: 10px 10px 10px 10px;
-    
 
   }
   
   .display-wrapper{
     display:flex;
-    
-    
   }
+
   .blog-image {
     width:150%;
-     
-
   }
   
   .blog-content {
@@ -267,7 +251,6 @@ all-blogs-wrapper {
   
   .date {
     text-align: center;
-   
     font-family: 'Montserrat', sans-serif;
     opacity: 30%;
   }
@@ -299,7 +282,7 @@ all-blogs-wrapper {
 
 
 
-
+/* Mobile/ responsive view*/
 
 @media only screen and (max-width:600px){
   
@@ -307,9 +290,7 @@ all-blogs-wrapper {
       background-color:#ffcb9a;
   }
   h1{
-    
       font-family: 'Montserrat', sans-serif;
-      
   }
   
   h3{
@@ -320,17 +301,13 @@ all-blogs-wrapper {
     padding-bottom:5%;
   }
   
-  
   #page-text{ 
       padding:10px 10px;
       color:white;
       font-family: 'Cairo', sans-serif;
       width:100%;
-      
   }
  
- 
-
 #about_photo{
   width:100%;
   margin-left:10%;
@@ -349,8 +326,6 @@ all-blogs-wrapper {
  
 }
 
-
-
 .section-a{
   padding-top:5%;
   padding-bottom:
@@ -366,19 +341,20 @@ all-blogs-wrapper {
   
   
   }
-  /*blog page*/
+/*blog page*/
   
   a{
     color:black;
   }
   
-  /* blog template*/
+/* blog template*/
   
   all-blogs-wrapper {
       
       width: 57vw;
       margin: auto;
-    }
+    } 
+
     #july{
       margin-top: 10%;
     }
@@ -430,7 +406,7 @@ all-blogs-wrapper {
       margin-right:10%;
     }
     
-  /*nav*/
+/*nav*/
   .topnav {
     overflow: hidden;
     background-color:#1F2833;
@@ -439,12 +415,10 @@ all-blogs-wrapper {
     top:0;
     left:0;
     margin-bottom:10%;
-    
   }
   
   .topnav #myLinks {
     display: none;
-    
   }
   .topnav{
     margin-bottom: 20%;
